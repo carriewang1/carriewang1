@@ -1,0 +1,22 @@
+column_Number,Variable_name,Description
+1,CUST_ID,Unique customer identifier
+2,ACCOUNT_TENURE,Account tenure in months based on last day of reporting month
+3,ACCT_CNT_SERVICES,Total number of services under an account
+4,AGE,Age of the account holder (derived on dob)
+5,CFU,Customer facing unit derived based on owning cost centre
+6,SERVICE_TENURE,Service tenure in months
+7,PLAN_ACCESS_FEE,Monthly access fee payable for the plan excluding gst
+8,BYO_PLAN_STATUS,Whether the customer is on a BYO (bring your own) plan
+9,PLAN_TENURE,Plan tenure in months
+10,MONTHS_OF_CONTRACT_REMAINING,Contract tenure remaining based on months of contract completed
+11,LAST_FX_CONTRACT_DURATION,Last known fixed contract term
+12,CONTRACT_STATUS,"Based on current contract the service is either on 'no-contract', 'on-contract' or 'off-contract'"
+13,PREV_CONTRACT_DURATION,Previous contract term
+14,HANDSET_USED_BRAND,Used equipment brand
+15,CHURN_IND,Service churn flagging for disconnected service in reporting month
+16,MONTHLY_SPEND,Service spend for reporting month
+17,COUNTRY_METRO_REGION,Country or metro customer classification
+18,STATE,State location of registered service
+19,RECON_SMS_NEXT_MTH,Recontracted after SMS contact in the following month
+20,RECON_TELE_NEXT_MTH,Recontracted after personal telephone contact in the following month
+21,RECON_EMAIL_NEXT_MTH,Recontracted after email contact in the follwing month
